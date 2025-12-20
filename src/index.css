@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body,
+html {
+  background-color: #ebebeb;
+
+font-family: montreal;
+
+}
+::selection{
+color: #ebebeb;
+  background-color: #ebebeb;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@font-face {
+  font-family: thermal;
+  src: url("./fonts/7dgxXADLmbrqt4lNqZmEczMyfs.woff");
+}
+@font-face {
+  font-family: montreal;
+  src: url("./fonts/zlPC41oiLVL3aDrJeTjGuigS28.woff2");
+}
+@font-face {
+  font-family: montseret;
+  src: url("./fonts/Recoleta-RegularDEMO.otf");
+}
+@font-face {
+  font-family: ndot;
+  src: url("./fonts/ndot-47-inspired-by-nothing.otf");
+}
+.body-fixed {
+  position: fixed;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+

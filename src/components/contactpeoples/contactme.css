@@ -1,0 +1,101 @@
+.contactme {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #EBEBEB;
+
+    border-bottom-width: 0px;
+    border-color: var(--token-a253b60a-3016-4045-8750-eb07a8b9bcd0, #252525);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-top-width: 1px;
+
+    display: flex;
+    /* flex: 0 0 auto;
+    flex-flow: column;
+    gap: 40px; */
+
+    overflow: hidden;
+    padding: 10px 0px 160px;
+    position: relative;
+    width: 100%;
+}
+
+.twoman-container {
+    display: flex;
+    gap: 10em;
+    padding: 10px;
+    flex: 1.4;
+  
+}
+
+.twoman-information {
+    padding: 10px;display: flex;
+    flex-direction: column;
+    gap: 3em;
+    flex: 1;
+
+}
+.two-cards img{
+    width: 220px;
+    height: 220px;
+}
+.two-man-card{
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+}
+.two-man-para{
+    max-width: 400px;
+}
+.two-card-names{
+    display: flex;gap: 5px;
+}
+
+
+.first-card h4,.contact-heading-text h4{
+    text-transform: uppercase;
+    color: #252525;font-size: 14px;
+}
+.two-man-para h4{
+    font-size: 18px;
+    font-style: normal;
+ font-family: montseret;
+  font-weight: 700;
+   letter-spacing: 0em;
+   line-height: 120%;
+}
+.first-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.twoman-information h4{line-height: 115%;
+    text-transform: uppercase;color: #252525;font-size: 14px;
+}
+
+@media (max-width:1200px) {
+    .two-man-para h4{
+        font-size: 14px;
+    }
+}
+@media (max-width:768px) {
+.twoman-container{
+    flex-direction: column;gap: 1em;
+}
+.two-cards img {
+    width: 150px;
+    height: 145px;
+}
+.contactme{
+    flex-direction: column-reverse;
+        padding: 10px 0px 70px;
+}
+.first-card h4  {
+    font-size: 12px;
+}
+.twoman-information h4 {
+    font-size: 12px;
+}
+}

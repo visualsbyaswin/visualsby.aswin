@@ -1,0 +1,36 @@
+/* Header text */
+.header {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 15;
+}
+
+.header h1 span {
+  display: inline-block;
+  transform: translateY(100%);
+  color: #fff;
+}
+
+/* 3D hover text */
+.zay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  font-weight: bold;
+  perspective: 1000px;
+  cursor: pointer;
+  z-index: 20;
+  color: #ff6b6b;
+  transition: color 0.3s ease;
+}
+
+.zay:hover {
+  color: #fff;
+}

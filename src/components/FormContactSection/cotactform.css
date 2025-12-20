@@ -1,0 +1,181 @@
+.contact-form-section {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+
+  padding: 20px 10px 80px;
+  position: relative;
+  border-bottom-width: 0px;
+  border-color: var(--token-a253b60a-3016-4045-8750-eb07a8b9bcd0, #252525);
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+
+}
+
+.contact-title {
+  flex: 0.7;
+  color: #252525;
+  font-size: 14px;
+
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  line-height: 115%;
+}
+
+.contact-captions {
+  flex: 1.5;
+  font-weight: 700;
+font-family: "PP Neue Montreal SemiBold", "PP Neue Montreal SemiBold Placeholder", sans-serif;
+  font-size: 21px;color: #252525;
+  letter-spacing: 0em;
+    line-height: 120%;
+
+}
+
+.contact-forms {
+  flex: 2;
+
+}
+
+.form-section {
+  border-bottom-width: 1px;
+  border-color: var(--token-a253b60a-3016-4045-8750-eb07a8b9bcd0, #252525);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  place-content: flex-start;
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  gap: 20px;
+  width: 500px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+
+  will-change: transform;
+}
+
+label h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 200;
+  color: #252525;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  color: var(--token-a253b60a-3016-4045-8750-eb07a8b9bcd0, rgb(37, 37, 37));
+
+}
+
+label input {
+border: 1px solid #ccc;
+  width: 100%;
+  background: #E2E1DF;
+  height: 40px;
+    outline: none;
+  padding: 10px;
+      font-family: 'montreal';
+
+}
+
+.input-flexer button {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;    font-family: 'montreal';
+  color: #252525;
+  font-weight: 550;
+  letter-spacing: 0em;
+  line-height: 115%;
+
+  border-radius: 5px;
+}
+
+.input-flexer {
+  display: flex;
+  gap: 8px;
+}
+.input-flexer button.online{
+  
+  background: #9db6a0;
+  border-color: #7c9e7f;
+  color: #000;
+
+}
+.input-flexer button {
+  width: 154px;
+  border: none;
+    background: #E2E1DF;
+  height: 40px;
+}
+
+.text-area input {
+  height: 80px;
+}
+
+.submit {
+  width: 100%;
+}
+
+.submit button {
+  place-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row;
+  gap: 0px;
+  height: 40px;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+
+  background-color: var(--token-a253b60a-3016-4045-8750-eb07a8b9bcd0, rgb(37, 37, 37));
+  color: #f1f0ee;
+  width: 100%;
+  border-radius: 2px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 115%;
+  font-size: 14px;
+  will-change: auto;
+  text-transform: uppercase;
+}
+
+
+@media (max-width:1200px) {
+
+.contact-captions,.contact-title{
+  font-size: 14px;
+}
+.contact-form-section{
+  flex-direction: column;
+    gap: 2em;
+}
+.form-section{
+  max-width: 100%;
+}
+.input-flexer{
+  flex-direction: column;
+}
+.input-flexer button{
+  width: 100%;
+}
+}
+
+@media (max-width:1200px) {
+
+.contact-captions,.contact-title,label h4,.input-flexer button {
+  font-size: 12px;
+}
+
+}
