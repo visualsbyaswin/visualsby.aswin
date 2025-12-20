@@ -70,7 +70,7 @@ const Navbar = () => {
       <div className="menu-overlay" ref={navRef}>
         <div className="manubar">
           <Link
-            to="/visualsbyaswin"
+            to="/visualsby.aswin"
             onClick={() => {
               tl.current.reverse();
               setOpen(false);
@@ -83,7 +83,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/visualsbyaswin/projects"
+            to="/visualsby.aswin/projects"
             onClick={() => {
               tl.current.reverse();
               setOpen(false);
@@ -95,7 +95,7 @@ const Navbar = () => {
             </div>
           </Link>
           <Link
-            to="/visualsbyaswin/services"
+            to="/visualsby.aswin/services"
             onClick={() => {
               tl.current.reverse();
               setOpen(false);
@@ -108,7 +108,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/visualsbyaswin/contact"
+            to="/visualsby.aswin/contact"
             onClick={() => {
               tl.current.reverse();
               setOpen(false);

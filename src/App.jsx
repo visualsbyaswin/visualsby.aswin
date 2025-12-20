@@ -20,11 +20,11 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/visualsbyaswin/projects/:slug" element={<Expolore />} />
-        <Route path="/visualsbyaswin" element={<Home />} />
-        <Route path="/visualsbyaswin/services" element={<About />} />
-        <Route path="/visualsbyaswin/projects" element={<Projects />} />
-        <Route path="/visualsbyaswin/contact" element={<Contact />} />
+        <Route path="/visualsby.aswin/projects/:slug" element={<Expolore />} />
+        <Route path="/visualsby.aswin" element={<Home />} />
+        <Route path="/visualsby.aswin/services" element={<About />} />
+        <Route path="/visualsby.aswin/projects" element={<Projects />} />
+        <Route path="/visualsby.aswin/contact" element={<Contact />} />
       </Routes>
 
       <Footer />

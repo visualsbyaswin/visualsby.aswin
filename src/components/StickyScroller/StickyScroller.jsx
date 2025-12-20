@@ -144,7 +144,7 @@ useGSAP(() => {
         onMouseLeave={() => setShow(false)}
         onMouseMove={handleMove}
       >
-        <Link to="/visualsbyaswin/projects" >
+        <Link to="/visualsby.aswin/projects" >
           <h2>( Explore all work )</h2>
         </Link>
         {show && (

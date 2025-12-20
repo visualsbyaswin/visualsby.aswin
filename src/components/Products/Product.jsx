@@ -41,7 +41,7 @@ const handleleave = () => {
   
       <div className="product-grid-main">
         {collectionofproducts.map((product, i) => (
-          <Link to={`/visualsbyaswin/projects/${product.slug}`} key={i}>
+          <Link to={`/visualsby.aswin/projects/${product.slug}`} key={i}>
             <div className="designs-mockup">
               <div className="mockup-designs">
                 <div className="mockup-image">
