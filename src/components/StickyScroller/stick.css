@@ -150,7 +150,7 @@ background-color: var(--token-d78b08d4-654b-4fe1-9fc3-71529c9fe307, #f1f0ee);
 @media (max-width:768px) {
     .sticsh2 {
         font-size: 35px;
-        height: 35vh;
+        height: 25vh;
     }
     .scroller{
         display: flex;

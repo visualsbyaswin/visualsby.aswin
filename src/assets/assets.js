@@ -51,6 +51,10 @@ import gif3 from "./gif8.gif";
 import gif4 from "./gif4.gif";
 import gif5 from "./gif5.gif";
 import gif6 from "./gif6.gif";
+import nuvero1 from "./nuvero1.png";
+import nuvero2 from "./nuvero2.png";
+import nuvero3 from "./nuvero3.png";
+import nuvero4 from "./nuvero4.png";
 
 
 import lapchar from "./projectcharment.jpg"
@@ -175,54 +179,23 @@ export const collectionofproducts = [
     title: "Slicetown",
     thumbnail: product4,
     slug: "Slicetown",
+    images:[stick3]
   },
   {
     id: 5,
     title: "nuvero Group",
     thumbnail: nuvero,
-    slug: "Haman Group",
+    slug: "nuvero Group",
+    images:[nuvero,nuvero1,nuvero2,nuvero3,nuvero4]
   },
   {
     id: 6,
-    title: "nue",
+    title: "blurgvillage",
     thumbnail: product6,
-    slug: "nue",
+    slug: "blurgvillage",
   },
 ];
-// export const projects = [
-//   {
-//     id: 1,
-//     slug: "haute-capital",
-//     title: "HAUTE CAPITAL",
-//     scope: "DIGITAL, FRAMER",
-//     status: "COMING SOON",
-//     images: [moc2, moc5],
-//     thumbnail: moc3,
-//     description: "Haute Capital is a digital-first brand focused on...",
-//   },
 
-//   {
-//     id: 2,
-//     slug: "digital-icon-agency",
-//     title: "DIGITAL ICON AGENCY",
-//     scope: "DIGITAL, FRAMER",
-//     status: "COMING SOON",
-//     thumbnail: moc1,
-//     images: [moc1, moc3],
-//     description: "A premium agency website built for creatives...",
-//   },
-
-//   {
-//     id: 3,
-//     slug: "sunday-superior",
-//     title: "SUNDAY SUPERIOR",
-//     scope: "STRATEGY, NAMING, BRAND",
-//     status: "COMING SOON",
-//     thumbnail: moc2,
-//     images: [moc1, moc3],
-//     description: "Complete brand identity system...",
-//   },
-// ];
 
 export const animator=[
   {

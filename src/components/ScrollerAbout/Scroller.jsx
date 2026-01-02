@@ -23,6 +23,7 @@ const Scroller = () => {
       })
     })
   });
+  
 
   function swapImage(index){
     gsap.to(".imgs",{duration:0.6,clipPath:`polygon(0% 64%, 5% 85%, 94% 28%, 13% 70%)`});
@@ -55,7 +56,7 @@ const Scroller = () => {
       </div>
       <div className="image-contents">
         {aboutimages.map((picture,i)=>(
-            <img key={i} src={picture.img} alt="" className="imgs" />
+            <img key={i} src={picture.img} alt="scrollers" className="imgs" />
         ))}
       </div>
     </section>

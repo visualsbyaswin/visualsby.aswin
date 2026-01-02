@@ -43,7 +43,7 @@ I help your brand stand out and shape the way users experience your business onl
           </h4>
         </div>
         <div className="service-images">
-          <img src={laps.lap1} alt="" />
+          <img src={laps.lap1} alt="service" />
           <div className="images-contents">
             <h4>Example</h4>
             <div className="bround"></div>
@@ -65,7 +65,7 @@ I help your brand stand out and shape the way users experience your business onl
           </h4>
         </div>
         <div className="service-images">
-          <img src={laps.lap2} alt="" />
+          <img src={laps.lap2}  alt="service" />
           <div className="images-contents">
             <h4>Example</h4>
             <div className="bround"></div>
@@ -101,7 +101,7 @@ I help your brand stand out and shape the way users experience your business onl
                 </div>
               </div>
               <div className="card-image">
-                <img src={laps.lap3} alt="" />
+                <img src={laps.lap3}  alt="service" />
               </div>
             </div>
             <div className="card y1">
@@ -119,7 +119,7 @@ I help your brand stand out and shape the way users experience your business onl
                 </div>
               </div>
               <div className="card-image">
-                <img src={laps.lap5} alt="" />
+                <img src={laps.lap5}  alt="service" />
               </div>
             </div>
             <div className="card y2">
@@ -137,7 +137,7 @@ I help your brand stand out and shape the way users experience your business onl
                 </div>
               </div>
               <div className="card-image">
-                <img src={laps.lap4} alt="" />
+                <img src={laps.lap4} alt="service" />
               </div>
             </div>{" "}
           </div>
@@ -149,7 +149,7 @@ I help your brand stand out and shape the way users experience your business onl
         </div>
         <div className="venture-body">
           <div className="venture-slideshow">
-            <img src={sticky.stick03} alt="" />
+            <img src={sticky.stick03}  alt="service" />
           </div>
           <div className="venture-texxts">
             <div className="venture-col">
@@ -165,7 +165,7 @@ Occasionally, I partner with early-stage startups to exchange frontend and desig
               </p>
             </div>
             <div className="">
-              <Link to="/visualsbyaswin/contact">
+              <Link to="/visualsby.aswin/contact">
                 <div className="onlybutton">
                   <h4>Book a call</h4>
                   <SVGIconAroow />

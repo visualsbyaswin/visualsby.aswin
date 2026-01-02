@@ -117,5 +117,13 @@
         font-size: clamp(40px, 12vw, 70px);
     }
 
-   
+   .right-contents{
+    padding-bottom: 40px;
+   }
+   .overview{
+    padding: 5px 4vw;
+   }
+   .right-contents{
+    gap: 50px;
+   }
 }

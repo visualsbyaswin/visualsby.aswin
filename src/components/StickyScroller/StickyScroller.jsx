@@ -53,10 +53,10 @@ useGSAP(() => {
         <div className="stics">
           <div className="imageofstick">
             <div className="stk st1">
-              <img src={sticky.stick1} />
+              <img src={sticky.stick1} alt="stivks" />
             </div>
             <div className="stk st2">
-              <img src={sticky.stick01} />
+              <img src={sticky.stick01} alt="stivks" />
             </div>
           </div>
           <div className="content-stick">
@@ -75,10 +75,10 @@ useGSAP(() => {
         <div className="stics">
           <div className="imageofstick">
             <div className="stk st2">
-              <img src={sticky.stick02} />
+              <img src={sticky.stick02} alt="stivks"  />
             </div>
             <div className="stk st1">
-              <img src={sticky.stick2} />
+              <img src={sticky.stick2} alt="stivks"  />
             </div>
           </div>
           <div className="content-stick">
@@ -97,10 +97,10 @@ useGSAP(() => {
         <div className="stics">
           <div className="imageofstick">
             <div className="stk st1">
-              <img src={sticky.stick3} />
+              <img src={sticky.stick3} alt="stivks" />
             </div>
             <div className="stk st2">
-              <img src={sticky.stick03} />
+              <img src={sticky.stick03} alt="stivks" />
             </div>
           </div>
           <div className="content-stick">
@@ -119,10 +119,10 @@ useGSAP(() => {
         <div className="stics">
           <div className="imageofstick">
             <div className="stk st2">
-              <img src={sticky.stick04} />
+              <img  src={sticky.stick04} alt="stivks" />
             </div>
             <div className="stk st1">
-              <img src={sticky.stick4} />
+              <img src={sticky.stick4} alt="stivks" />
             </div>
           </div>
           <div className="content-stick">

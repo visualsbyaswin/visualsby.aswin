@@ -170,10 +170,15 @@
   .only-contents h4 {
     font-size: 13px;
   }
+  .only-contents{
+    gap: 1em;
+  }
 
   .about-contents {
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
   }
-  
+  .about{
+    gap: 3em;min-height: auto;
+  }
 }

@@ -54,7 +54,7 @@ const Expolore = () => {
           scrollTrigger: {
             trigger: rows, // <-- FIXED
             start: "top 85%",
-            scrub: true,
+            // scrub: true,
           },
         });
 

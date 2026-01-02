@@ -18,6 +18,7 @@ const App = () => {
   return (
     <main>
       <Navbar />
+{/* git commit -m "Updated portfolio design and fixes" update */}
 
       <Routes>
         <Route path="/visualsby.aswin/projects/:slug" element={<Expolore />} />

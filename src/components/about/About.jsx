@@ -30,7 +30,7 @@ i craft beautiful and funcional web experiences that delight users. from concept
           <div className="marquee-track">
             {[...gifs, ...gifs].map((item, i) => (
               <div className="item" key={i}>
-                <img src={item.imgs} alt="" />
+                <img src={item.imgs} alt="allabout" />
                 {item.text}
               </div>
             ))}

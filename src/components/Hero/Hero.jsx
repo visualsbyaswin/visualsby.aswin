@@ -70,7 +70,7 @@ const Hero = ({
           </div>
 
           <MusicCard />
-          <DecryptText selector=".decrypt" duration={1} />
+          <DecryptText selector=".decrypt" duration={0.5} />
         </div>
 
         <div className="hero-banner">
