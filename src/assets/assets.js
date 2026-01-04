@@ -60,7 +60,15 @@ import nuvero4 from "./nuvero4.png";
 import lapchar from "./projectcharment.jpg"
 
 import nuvero from "./nuvero.jpg"
+import macos from "./macos.png"
 
+import blurg from "./blurg.png"
+
+import slice from "./slicetown.png"
+import rentup from "./rental.png"
+import arkify from "./arkify.png"
+import akhino from "./akhino.png"
+import downsun from "./sundown.png"
 export const productbase = {
   product1,
   product2,
@@ -171,13 +179,13 @@ export const collectionofproducts = [
   {
     id: 3,
     title: "Palmer Studio",
-    thumbnail: product3,
+    thumbnail: akhino,
     slug: "Palmer Studio",
   },
   {
     id: 4,
     title: "Slicetown",
-    thumbnail: product4,
+    thumbnail: slice,
     slug: "Slicetown",
     images:[stick3]
   },
@@ -189,11 +197,36 @@ export const collectionofproducts = [
     images:[nuvero,nuvero1,nuvero2,nuvero3,nuvero4]
   },
   {
-    id: 6,
+    id:6,
+    title:"Macos Portfolio",
+    thumbnail:macos,
+      slug:"Macos Portfolio",
+  },
+  {
+    id: 7,
     title: "blurgvillage",
-    thumbnail: product6,
+    thumbnail: blurg,
     slug: "blurgvillage",
   },
+  {
+    id: 8,
+    title: "Arkify",
+    thumbnail: arkify,
+    slug: "Arkify",
+  },
+    {
+    id: 9,
+    title: "rentup",
+    thumbnail: rentup,
+    slug: "rentup",
+  },
+      {
+    id: 10,
+    title: "sundown",
+    thumbnail: downsun,
+    slug: "sundown",
+  },
+
 ];
 
 
